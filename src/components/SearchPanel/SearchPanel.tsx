@@ -83,7 +83,7 @@ export function SearchPanel() {
           ) : isError ? (
             <div className='flex justify-center items-center w-full h-full flex-1'>
               <span className='text-sm text-red-500'>
-                Error: {error?.message}
+                Error: {(error as any)?.message}
               </span>
             </div>
           ) : null}

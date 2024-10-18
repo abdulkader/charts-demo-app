@@ -1,6 +1,4 @@
-import { fetchCharts } from '@/services/charts.service';
-import { createContext, useEffect, useReducer } from 'react';
-import { useQuery } from 'react-query';
+import { createContext, useReducer } from 'react';
 import { SearchPanel } from '@/components/SearchPanel';
 import { SearchMode } from '@/lib/enums';
 
