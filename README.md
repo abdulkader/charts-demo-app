@@ -16,3 +16,7 @@
 ### API Proxy to Aviod CORS
 
 We are using [https://corsproxy.io/](https://corsproxy.io/) to bypass the CORS issues to the API. You can find more details on their website.
+
+## Note
+
+Currently the charts created are only stored to Localstorage and Not saved to any database at the moment. But the logic is there in place to call the API services to create/delete/update chart details.
